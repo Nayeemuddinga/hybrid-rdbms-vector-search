@@ -1,1 +1,11 @@
+[
+  {
+    "title": "PostgreSQL DR Strategy",
+    "content": "Patroni based failover with etcd improves availability."
+  },
+  {
+    "title": "Vector Search",
+    "content": "pgvector enables cosine similarity inside PostgreSQL."
+  }
+]
 
