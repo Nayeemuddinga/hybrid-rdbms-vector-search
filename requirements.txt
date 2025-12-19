@@ -1,1 +1,7 @@
+psycopg2-binary
+sqlalchemy
+pgvector
+numpy
+openai
+python-dotenv
 
