@@ -1,11 +1,9 @@
-import openai
-
-openai.api_key = "YOUR_API_KEY"
+from openai import OpenAI
+client = OpenAI()
 
 def generate_embedding(text):
-    response = openai.embeddings.create(
+    return client.embeddings.create(
         model="text-embedding-3-small",
         input=text
-    )
-    return response.data[0].embedding
+    ).data[0].embedding
 
