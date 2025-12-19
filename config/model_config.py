@@ -1,1 +1,2 @@
+MODEL_PROVIDER = "OCI"  # or OPENAI
 
